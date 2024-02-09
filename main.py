@@ -28,7 +28,7 @@ def draw_board(board):
     return board_objects
 
 def draw_window(board):
-    WIN.fill(colors.BLUE)
+    WIN.fill(colors.BLACK)
     WIN.blit(BOARD, [0,0])
     
     board_objects = draw_board(board)
