@@ -112,9 +112,11 @@ def checkWin(board, turn):
         return 0
 
 # Unused function, resets the board 
+"""
 def resetBoard(board):
     for i in range(0, len(board)):
         board[i] = ""
+"""
 
 # Checks where the mouse is being clicked
 def getInput(mouse_pressed):
